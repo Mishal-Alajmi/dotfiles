@@ -1,0 +1,12 @@
+2022-07-23 14:00:21,240 DEBUG    root            Loaded Command Group: ['gcloud', 'projects']
+2022-07-23 14:00:21,243 DEBUG    root            Loaded Command Group: ['gcloud', 'projects', 'describe']
+2022-07-23 14:00:21,245 DEBUG    root            Running [gcloud.projects.describe] with arguments: [--account: "mishalajmi.dev@gmail.com", --configuration: "default", --format: "value(name)", PROJECT_ID_OR_NUMBER: "shorak-test-352317"]
+2022-07-23 14:00:21,263 DEBUG    google.auth.transport.requests Making request: POST https://oauth2.googleapis.com/token
+2022-07-23 14:00:21,286 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2022-07-23 14:01:36,656 DEBUG    urllib3.connectionpool https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2022-07-23 14:01:36,801 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudresourcemanager.googleapis.com:443
+2022-07-23 14:01:38,327 DEBUG    urllib3.connectionpool https://cloudresourcemanager.googleapis.com:443 "GET /v1/projects/shorak-test-352317?alt=json HTTP/1.1" 200 None
+2022-07-23 14:01:38,330 INFO     root            Display format: "default value(name)"
+2022-07-23 14:01:38,330 INFO     ___FILE_ONLY___ shorak-test
+
+2022-07-23 14:01:38,343 DEBUG    root            Metrics reporting process started...
