@@ -1,9 +1,0 @@
-2022-06-25 11:49:37,431 DEBUG    root            Loaded Command Group: ['gcloud', 'projects']
-2022-06-25 11:49:37,434 DEBUG    root            Loaded Command Group: ['gcloud', 'projects', 'describe']
-2022-06-25 11:49:37,436 DEBUG    root            Running [gcloud.projects.describe] with arguments: [--account: "mishalajmi.dev@gmail.com", --configuration: "default", --format: "value(name)", PROJECT_ID_OR_NUMBER: "shorak-test-352317"]
-2022-06-25 11:49:37,589 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudresourcemanager.googleapis.com:443
-2022-06-25 11:49:39,053 DEBUG    urllib3.connectionpool https://cloudresourcemanager.googleapis.com:443 "GET /v1/projects/shorak-test-352317?alt=json HTTP/1.1" 200 None
-2022-06-25 11:49:39,056 INFO     root            Display format: "default value(name)"
-2022-06-25 11:49:39,056 INFO     ___FILE_ONLY___ shorak-test
-
-2022-06-25 11:49:39,067 DEBUG    root            Metrics reporting process started...
